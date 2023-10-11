@@ -1,0 +1,99 @@
+\documentclass[a4paper]{deedy-resume-openfont}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\lastupdated % Print the Last Updated text at the top right
+
+\namesection{Rosemary}{Jerome}{ % Your name
+\href{mailto:youremail@example.com}{youremail@example.com} | +234 123 456 789 % Your contact information
+}
+
+%----------------------------------------------------------------------------------------
+%	LEFT COLUMN
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.33\textwidth} % The left column takes up 33% of the text width of the page
+
+% Education section
+\section{Education}
+
+\subsection{B.Sc. Psychology}
+\descript{University of Jos}
+\location{Completed 2021 | Nigeria}
+\sectionsep
+
+% Certificates section
+\section{Certificates}
+\subsection{International School Certificates}
+\descript{Various Certifications}
+\location{Child Protection, Children Mental Wellbeing, Dyslexia Awareness, First Aid Essentials, etc.}
+\location{Completed 20XX-20XX}
+\sectionsep
+
+% Skills section
+\section{Skills}
+\subsection{Soft Skills}
+Communication \textbullet{} Problem-solving \textbullet{} Teamwork \\
+Time Management \textbullet{} Leadership \textbullet{} Adaptability
+\sectionsep
+
+% Language section
+\section{Languages}
+English (Fluent) \\
+French (Basic)
+
+% Links section (if applicable)
+%\section{Links}
+%LinkedIn:// \href{https://www.linkedin.com/in/yourname}{\custombold{yourname}} \\
+%GitHub:// \href{https://github.com/yourusername}{\custombold{yourusername}} \\
+%Personal:// \href{https://www.yourwebsite.com}{\custombold{yourwebsite.com}} \\
+%YouTube:// \href{https://www.youtube.com/user/yourusername}{\custombold{yourusername}}
+
+\sectionsep
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the left column
+
+%----------------------------------------------------------------------------------------
+%	RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+
+\hfill
+\begin{minipage}[t]{0.66\textwidth} % The right column takes up 66% of the text width of the page
+
+% Experience section
+\section{Experience}
+
+\runsubsection{Herizon Educational}
+\descript{| SEND Teacher}
+\location{Dates}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Description of responsibilities and accomplishments.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Startrite Schools}
+\descript{| SEND Teacher}
+\location{Dates}
+\begin{tightemize}
+\item Description of responsibilities and accomplishments.
+\end{tightemize}
+\sectionsep
+
+% Additional Information section
+\section{Additional Information}
+\begin{tightemize}
+\item Any other relevant information or achievements can be added here.
+\end{tightemize}
+
+\end{minipage} % The end of the right column
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
